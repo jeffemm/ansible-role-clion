@@ -40,3 +40,4 @@
   template:
     src: clion.desktop.j2
     dest: "{{ clion_desktop_file_location }}"
+  when: clion_install_desktop

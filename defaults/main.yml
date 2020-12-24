@@ -11,4 +11,5 @@ clion_install_file: "CLion-{{ clion_version }}.tar.gz"
 clion_download_url: "{{ clion_download_mirror }}{{ clion_install_file }}"
 clion_location: "{{ clion_install_directory }}/clion-{{ clion_version }}"
 
+clion_install_desktop: false
 clion_desktop_file_location: "{{ clion_user_dir | expanduser }}/.local/share/applications/clion-{{ clion_version }}.desktop"
